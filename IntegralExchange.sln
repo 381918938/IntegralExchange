@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{2914CCB7-D8B2-409C-8298-8CE0D3A847A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{6C4A5950-72D8-49CF-A0AD-583E8BB7913F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{449C8E26-4F9B-4525-A662-77B1E8907ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{BD5A8723-9F31-4050-B5EE-1C671D52BA69}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web(1)", "Web\", "{14522C2E-9539-4339-AB89-FF4DA1BB99C4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{A2AF3745-85B4-4B1F-B091-828A53626F50}|WeiXin.Pay_v3.0.dll;{BE04266A-0EBA-4066-9E8B-220EBE38AFE7}|WeiXin.SDK.dll;{bd5a8723-9f31-4050-b5ee-1c671d52ba69}|Model.dll;{449c8e26-4f9b-4525-a662-77b1e8907abf}|BLL.dll;{2914ccb7-d8b2-409c-8298-8ce0d3a847a7}|Common.dll;{6C4A5950-72D8-49CF-A0AD-583E8BB7913F}|DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4696"
+		Debug.AspNetCompiler.PhysicalPath = "Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4696\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4696"
+		Release.AspNetCompiler.PhysicalPath = "Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4696\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4696"
+		SlnRelativePath = "Web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeiXin.Pay_V3.0", "WeiXin.Pay\WeiXin.Pay_V3.0.csproj", "{A2AF3745-85B4-4B1F-B091-828A53626F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeiXin.SDK", "WeiXin.SDK\WeiXin.SDK.csproj", "{BE04266A-0EBA-4066-9E8B-220EBE38AFE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2914CCB7-D8B2-409C-8298-8CE0D3A847A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2914CCB7-D8B2-409C-8298-8CE0D3A847A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2914CCB7-D8B2-409C-8298-8CE0D3A847A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2914CCB7-D8B2-409C-8298-8CE0D3A847A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4A5950-72D8-49CF-A0AD-583E8BB7913F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4A5950-72D8-49CF-A0AD-583E8BB7913F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4A5950-72D8-49CF-A0AD-583E8BB7913F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4A5950-72D8-49CF-A0AD-583E8BB7913F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449C8E26-4F9B-4525-A662-77B1E8907ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449C8E26-4F9B-4525-A662-77B1E8907ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449C8E26-4F9B-4525-A662-77B1E8907ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449C8E26-4F9B-4525-A662-77B1E8907ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5A8723-9F31-4050-B5EE-1C671D52BA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5A8723-9F31-4050-B5EE-1C671D52BA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5A8723-9F31-4050-B5EE-1C671D52BA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5A8723-9F31-4050-B5EE-1C671D52BA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14522C2E-9539-4339-AB89-FF4DA1BB99C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14522C2E-9539-4339-AB89-FF4DA1BB99C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14522C2E-9539-4339-AB89-FF4DA1BB99C4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{14522C2E-9539-4339-AB89-FF4DA1BB99C4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A2AF3745-85B4-4B1F-B091-828A53626F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AF3745-85B4-4B1F-B091-828A53626F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AF3745-85B4-4B1F-B091-828A53626F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AF3745-85B4-4B1F-B091-828A53626F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE04266A-0EBA-4066-9E8B-220EBE38AFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE04266A-0EBA-4066-9E8B-220EBE38AFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE04266A-0EBA-4066-9E8B-220EBE38AFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE04266A-0EBA-4066-9E8B-220EBE38AFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
